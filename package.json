@@ -1,0 +1,25 @@
+{
+  "name": "protonirc",
+  "version": "1.0.0",
+  "description": "A simple IRC client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffreymeng/protonirc.git"
+  },
+  "author": "Jeffrey Meng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffreymeng/protonirc/issues"
+  },
+  "homepage": "https://github.com/jeffreymeng/protonirc#readme",
+  "devDependencies": {
+    "electron": "^4.0.0"
+  },
+  "dependencies": {
+    "jQuery": "^1.7.4"
+  }
+}

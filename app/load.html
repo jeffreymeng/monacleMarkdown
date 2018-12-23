@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Kiwi IRC</title>
+	<style>
+		body {
+			font-family:"Arial";
+			background-color:lightgreen;
+			text-align:center;
+		}
+		.float-right {
+			right:50px;
+			bottom:35px;
+			position:absolute;
+		}
+		.float-left {
+			left:50px;
+			bottom:35px;
+			position:absolute;
+		}
+		.progress-bar {
+			position:absolute;
+			top:150px;
+			height:5px;
+			left:50px;
+			right:0;
+			width:calc(100vw - 50px);
+			margin:0;
+			padding:0;
+			/*border:1px solid black;*/
+		}
+		.progress {
+			background-color:red;
+			height:5px;
+			width:0%;
+
+		}
+	</style>
+</head>
+<body>
+	<h1>Monocle Markdown</h1>
+	<p>Loading...</p>
+	<div class="progress-bar">
+		<div class="progress"></div>
+	</div>
+	<div class="float-left">
+		<p>Monocle Markdown Enterprise 1.6.0</p>
+	</div>
+	<div class="float-right"><p>Licensed to Jeffrey Meng</p>
+		<p>Subscription active until 12/10/2019</p></div>
+	<script>
+		require('./loadRenderer.js')
+
+	</script>
+</body>
+</html>
